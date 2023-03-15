@@ -1,0 +1,14 @@
+format_version: v1.0
+configName: sam9x60_cur
+folderName: f2fL1_sam9x60_cur
+frameworkPath: C:\mchp\mTools\harmony\v3
+processor: SAM9X60D1G
+projectName: f2fL1_sam9x60_cur
+settings:
+  PackageFilter: ''
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: dev_packs\arm\CMSIS\5.8.0
+  MERGE_STRATEGY: USER_ALL
+  DFPPath: dev_packs\Microchip\SAM9X60_DFP\1.7.85\atdf\SAM9X60D1G.atdf
