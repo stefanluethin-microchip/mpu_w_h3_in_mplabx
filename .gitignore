@@ -1,0 +1,78 @@
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+#-SL: MPLABX files
+*/firmware/*.X/build/
+*/firmware/*.X/dist/
+*/firmware/*.X/.generated_files/
+*/firmware/*.X/nbproject/Makefile-*
+*/firmware/*.X/nbproject/private/
+#-temp file from mdb.bat, mdbcs-runs
+*/firmware/*.X/MPLAB*.xml*
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+#-eof
+dev11Labs_fw/firmware/CICDgit_samd21xplp.X/xc32_call.sh
+dev11Labs_fw/firmware/CICDgit_samd21xplp.X/xc32_help_gcc_help.txt
+dev11Labs_fw/firmware/CICDgit_samd21xplp.X/xc32_log_flist-allheaders.txt
+dev11Labs_fw/firmware/CICDgit_samd21xplp.X/xc32_log_gcc_e-dm.txt
+dev11Labs_fw/firmware/CICDgit_samd21xplp.X/xc32_log-mplabx_packs_ANSEL.txt
+dev11Labs_fw/firmware/CICDgit_samd21xplp.X/zzz-old/xc32_call_log.txt
+dev11Labs_fw/firmware/CICDgit_samd21xplp.X/zzz-old/xc32_comp_completePrj_log1.txt
+dev11Labs_fw/firmware/CICDgit_samd21xplp.X/zzz-old/xc32_comp_completePrj_log2-global.txt
+dev11Labs_fw/firmware/CICDgit_samd21xplp.X/zzz-old/xc32_comp_completePrj_log3-gcc.txt
+dev11Labs_fw/firmware/CICDgit_samd21xplp.X/zzz-old/xc32_comp_completePrj_log4-ld.txt
+dev11Labs_fw/firmware/CICDgit_samd21xplp.X/zzz-old/xc32_comp_log.txt
+dev11Labs_fw/firmware/CICDgit_samd21xplp.X/zzz-old/xc32_gcc-E.txt
+dev11Labs_fw/firmware/CICDgit_samd21xplp.X/zzz-old/xc32_gcc-E_definitions-h.txt
+dev11Labs_fw/firmware/CICDgit_samd21xplp.X/zzz-old/xc32_gcc-E-dM.txt
+dev11Labs_fw/firmware/CICDgit_samd21xplp.X/foo.h
