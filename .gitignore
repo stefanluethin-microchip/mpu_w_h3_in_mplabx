@@ -15,6 +15,7 @@
 #-SL: MPLABX files
 */firmware/*.X/build/
 */firmware/*.X/dist/
+*/firmware/*.X/debug/
 */firmware/*.X/.generated_files/
 */firmware/*.X/nbproject/Makefile-*
 */firmware/*.X/nbproject/private/
