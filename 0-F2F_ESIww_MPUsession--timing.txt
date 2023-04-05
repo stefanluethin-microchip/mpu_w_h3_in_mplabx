@@ -1,0 +1,23 @@
+Timing for PPT (last dryRun, We-5.4.23)
+---------------------------------------
+-) p1: start->demo1     -> 15min :=  0-12min
+ -) p1/demo
+    preload+run :=      ->  5min := 15-20min
+    (from-scratch -> 10min)
+
+-) p2a: at91-ide :=     -> 10min := 20-40min
+ -) p2a/demo :=         -> 10min := 40-50min
+
+-) p2b: at91-prod :=    -> 10min := 50-60min
+ -) p2b/demo at91-sdc:= ->  5min := 60-65min
+
+-) p2c: at91-deb        -> 10min := 65-75min
+ -) p2b/demo at91-deb:= ->  5min := 75-80min
+ 
+-) p3: adv              ->  5min := 80-85min
+ 
+-) p4: labs             ->  5min := 85-90min
+
+-) p5: summary          ->  5min := 90-95min
+
+#eof
