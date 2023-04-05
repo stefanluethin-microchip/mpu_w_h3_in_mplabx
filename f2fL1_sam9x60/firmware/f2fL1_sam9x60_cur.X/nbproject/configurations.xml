@@ -234,7 +234,7 @@
         <ScriptingSetting key="boot.use" value="true"/>
         <ScriptingSetting key="boot.entry_adr" value=""/>
         <ScriptingSetting key="boot.path"
-                          value="C:\mchp\Seminars\2023\230424_ESI-F2F_WW-Bangkok\Labs\f2fL2_at91\at91bootstrap_sam_9x60_ek.X\build\binaries\at91bootstrap.elf"/>
+                          value="C:\mchp\Seminars\2023\230424_ESI-F2F_WW-Bangkok\Labs\gh_esi_f2f_ww_2023\LabHelp\sam9x60cur_ide-sam9x60_curiosity_bkptnone_defconfig--at91bootstrap.elf"/>
         <ScriptingSetting key="boot.prj" value=""/>
       </ScriptingSettings>
       <compileType>
