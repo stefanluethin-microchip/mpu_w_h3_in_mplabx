@@ -634,7 +634,10 @@ static int load_eeprom_info(unsigned char *buff, unsigned int size,
 
 	memset(bd_info, 0, sizeof(*bd_info));
 
-	dbg_info("EEPROM: Loading AT24xx information ...\n");
+	//-SL: at91 for IDE
+    //dbg_info("EEPROM: Loading AT24xx information (SL: sam9x60cut-at91-4-IDE...) ...\n");
+	//-SL: at91 for SDCard
+    dbg_info("EEPROM: Loading AT24xx information (SL: sam9x60cut-at91-4-SDC...) ...\n");
 
 	dbg_info("EEPROM: BoardName | [Revid] | VendorName\n");
 
